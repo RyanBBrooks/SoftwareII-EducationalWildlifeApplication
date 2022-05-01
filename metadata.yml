@@ -1,0 +1,22 @@
+---
+:id: 26215091
+:submitters:
+- :name: TAYLOR JACOBSEN
+  :email: u1043897@utah.edu
+- :name: CALVIN NIELSON
+  :email: u1123981@utah.edu
+- :name: ANDRE WATSON
+  :email: u1137272@utah.edu
+- :name: RYAN BROOKS
+  :email: u1115093@utah.edu
+- :name: MOLLY CLARE
+  :email: u1083862@utah.edu
+- :name: ALEX BARTEE
+  :email: u1157967@utah.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2019-12-08 00:53:28.170700000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2019-12-07 16:53:28.170700000 Z
+:status: processed
+:score: 94.0

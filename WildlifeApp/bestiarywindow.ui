@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bestiaryWindow</class>
+ <widget class="QWidget" name="bestiaryWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Learning: The Bestiary</string>
+  </property>
+  <widget class="QPushButton" name="prevButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>90</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:enabled{
+	background-color: rgba(0, 0, 0,0);
+	color: rgb(255, 255, 255);
+}
+QPushButton:!enabled {
+	background-color: rgba(60,60,60,0);
+	color:rgb(200,200,200);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/Assets/Graphics/Bestiary/prevButton.png</normaloff>:/Assets/Graphics/Bestiary/prevButton.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>90</width>
+     <height>90</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string>Left</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextButton">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>20</y>
+     <width>90</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:enabled{
+	background-color: rgba(0, 0, 0,0);
+	color: rgb(255, 255, 255);
+}
+QPushButton:!enabled {
+	background-color: rgba(60,60,60,0);
+	color:rgb(200,200,200);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/Assets/Graphics/Bestiary/nextButton.png</normaloff>:/Assets/Graphics/Bestiary/nextButton.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>90</width>
+     <height>90</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string>Right</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>380</y>
+     <width>360</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0, 0, 0, 0);
+border-image: url(:/Assets/Graphics/Bestiary/NameBackground.png);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="text">
+    <string>Name of Thing</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pictureLabel">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>170</y>
+     <width>280</width>
+     <height>280</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>Picture of thing</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnToTitleButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>10</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:enabled{
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+QPushButton:!enabled {
+	background-color: rgb(60,60,60);
+	color:rgb(200,200,200);
+}
+QPushBUtton:pressed{
+	
+	background-color: rgb(136, 136, 136);
+}
+QPushBUtton:released{
+
+	background-color: rgb(0, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>[ return to title ]</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>119</x>
+     <y>49</y>
+     <width>961</width>
+     <height>139</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="jumpToPlantsButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton:enabled{
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+QPushButton:!enabled {
+	background-color: rgb(60,60,60);
+	color:rgb(200,200,200);
+}
+QPushBUtton:pressed{
+	
+	background-color: rgb(136, 136, 136);
+}
+QPushBUtton:released{
+
+	background-color: rgb(0, 0, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>Jump to: Plants</string>
+      </property>
+      <property name="shortcut">
+       <string>P</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="jumpToAnimalsButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton:enabled{
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+QPushButton:!enabled {
+	background-color: rgb(60,60,60);
+	color:rgb(200,200,200);
+}
+QPushBUtton:pressed{
+	
+	background-color: rgb(136, 136, 136);
+}
+QPushBUtton:released{
+
+	background-color: rgb(0, 0, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>Jump to: Animals</string>
+      </property>
+      <property name="shortcut">
+       <string>A</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="jumpToFungiButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton:enabled{
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+QPushButton:!enabled {
+	background-color: rgb(60,60,60);
+	color:rgb(200,200,200);
+}
+QPushBUtton:pressed{
+	
+	background-color: rgb(136, 136, 136);
+}
+QPushBUtton:released{
+
+	background-color: rgb(0, 0, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>Jump to: Fungi</string>
+      </property>
+      <property name="shortcut">
+       <string>F</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QScrollArea" name="descriptionScroll">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>449</y>
+     <width>1121</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0, 0, 0, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1121</width>
+      <height>341</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="backgroundLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="descriptionBackground">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>450</y>
+     <width>1121</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Assets/Graphics/Bestiary/DescriptionBackground.png);
+border-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>backgroundLabel</zorder>
+  <zorder>prevButton</zorder>
+  <zorder>nextButton</zorder>
+  <zorder>nameLabel</zorder>
+  <zorder>pictureLabel</zorder>
+  <zorder>returnToTitleButton</zorder>
+  <zorder>horizontalLayoutWidget</zorder>
+  <zorder>descriptionBackground</zorder>
+  <zorder>descriptionScroll</zorder>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

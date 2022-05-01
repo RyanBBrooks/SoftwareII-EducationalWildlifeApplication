@@ -1,0 +1,92 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Assets/Graphics/Backgrounds/B_1.png</file>
+        <file>Assets/Graphics/Backgrounds/B_2.png</file>
+        <file>Assets/Graphics/Backgrounds/B_3.png</file>
+        <file>Assets/Graphics/Backgrounds/B_4.png</file>
+        <file>Assets/Graphics/Backgrounds/B_5.png</file>
+        <file>Assets/Graphics/Backgrounds/B_6.png</file>
+        <file>Assets/Graphics/Backgrounds/B_0.png</file>
+        <file>Assets/Graphics/MiscButtons/gameover.png</file>
+        <file>Assets/Graphics/Wildlife/Bane Berry.png</file>
+        <file>Assets/Graphics/Wildlife/Bighorn Sheep.png</file>
+        <file>Assets/Graphics/Wildlife/Black Bear.png</file>
+        <file>Assets/Graphics/Wildlife/Black Widow.png</file>
+        <file>Assets/Graphics/Wildlife/Blue Bonnet.png</file>
+        <file>Assets/Graphics/Wildlife/Boreal Toad.png</file>
+        <file>Assets/Graphics/Wildlife/Chanterelle.png</file>
+        <file>Assets/Graphics/Wildlife/Coyote.png</file>
+        <file>Assets/Graphics/Wildlife/False Morel.png</file>
+        <file>Assets/Graphics/Wildlife/Fly Agaric.png</file>
+        <file>Assets/Graphics/Wildlife/Gila Monster.png</file>
+        <file>Assets/Graphics/Wildlife/Grizzly Bear.png</file>
+        <file>Assets/Graphics/Wildlife/Jimson Weed.png</file>
+        <file>Assets/Graphics/Wildlife/Kangaroo Rat.png</file>
+        <file>Assets/Graphics/Wildlife/Mountain Lion.png</file>
+        <file>Assets/Graphics/Wildlife/Mule Deer.png</file>
+        <file>Assets/Graphics/Wildlife/Nightshade.png</file>
+        <file>Assets/Graphics/Wildlife/Penny Bun.png</file>
+        <file>Assets/Graphics/Wildlife/Poison Ivy.png</file>
+        <file>Assets/Graphics/Wildlife/Poison Oak.png</file>
+        <file>Assets/Graphics/Wildlife/Puffball.png</file>
+        <file>Assets/Graphics/Wildlife/Rattle Snake.png</file>
+        <file>Assets/Graphics/Wildlife/Stinging Nettle.png</file>
+        <file>Assets/Graphics/Wildlife/True Morel.png</file>
+        <file>Assets/Graphics/Wildlife/Wood Scorpion.png</file>
+        <file>Assets/Graphics/Wildlife/Dandelion.png</file>
+        <file>Assets/Sound Effects/Action/heal.wav</file>
+        <file>Assets/Sound Effects/Action/hurt.wav</file>
+        <file>Assets/Sound Effects/Action/run.wav</file>
+        <file>Assets/Sound Effects/Action/text.wav</file>
+        <file>Assets/Sound Effects/Action/yell.wav</file>
+        <file>Assets/Graphics/TitleButtons/infoButton.png</file>
+        <file>Assets/Graphics/TitleButtons/learnButton.png</file>
+        <file>Assets/Graphics/TitleButtons/practiceButton.png</file>
+        <file>Assets/Graphics/TitleButtons/TTMLogo.png</file>
+        <file>Assets/Sound Effects/Wildlife/Bighorn Sheep.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Black Widow.wav</file>
+        <file>Assets/Sound Effects/Wildlife/blackbear.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Boreal Toad.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Coyote.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Default.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Gila Monster.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Grizzly Bear.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Kangaroo Rat.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Mountain Lion.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Mule Deer.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Rattle Snake.wav</file>
+        <file>Assets/Sound Effects/Wildlife/Wood Scorpion.wav</file>
+        <file>Assets/Graphics/TitleButtons/adventureButton.png</file>
+        <file>Assets/Fonts/apple_kid.ttf</file>
+        <file>Assets/Graphics/Backgrounds/B_7.png</file>
+        <file>Assets/Graphics/Backgrounds/B_B.png</file>
+        <file>Assets/Graphics/TitleButtons/adventureButton_P.png</file>
+        <file>Assets/Graphics/TitleButtons/infoButton_P.png</file>
+        <file>Assets/Graphics/TitleButtons/learnButton_P.png</file>
+        <file>Assets/Graphics/TitleButtons/practiceButton_P.png</file>
+        <file>Assets/Graphics/TitleButtons/Logo.png</file>
+        <file>Assets/Graphics/ActionButtons/backAwayButton.png</file>
+        <file>Assets/Graphics/ActionButtons/backAwayButton_P.png</file>
+        <file>Assets/Graphics/ActionButtons/eatButton.png</file>
+        <file>Assets/Graphics/ActionButtons/eatButton_P.png</file>
+        <file>Assets/Graphics/ActionButtons/intimidateButton.png</file>
+        <file>Assets/Graphics/ActionButtons/intimidateButton_P.png</file>
+        <file>Assets/Graphics/ActionButtons/playDeadButton.png</file>
+        <file>Assets/Graphics/ActionButtons/playDeadButton_P.png</file>
+        <file>Assets/Graphics/ActionButtons/runAwayButton.png</file>
+        <file>Assets/Graphics/ActionButtons/runAwayButton_P.png</file>
+        <file>Assets/Graphics/ActionButtons/yellButton.png</file>
+        <file>Assets/Graphics/ActionButtons/yellButton_P.png</file>
+        <file>Assets/Graphics/ActionButtons/Textbox.png</file>
+        <file>Assets/Graphics/Bestiary/nextButton.png</file>
+        <file>Assets/Graphics/Bestiary/nextButton_P.png</file>
+        <file>Assets/Graphics/Bestiary/prevButton.png</file>
+        <file>Assets/Graphics/Bestiary/prevButton_P.png</file>
+        <file>Assets/Graphics/ActionButtons/BestiaryBorder.png</file>
+        <file>Assets/Graphics/ActionButtons/BestiaryBorder_P.png</file>
+        <file>Assets/Graphics/Bestiary/DescriptionBackground.png</file>
+        <file>Assets/Graphics/Bestiary/NameBackground.png</file>
+        <file>Assets/Graphics/ActionButtons/defeatedBox.png</file>
+        <file>Assets/Sound Effects/Action/win.wav</file>
+    </qresource>
+</RCC>
